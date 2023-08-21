@@ -1,0 +1,59 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    background-image: url(assets/noise.png);
+    border-collapse: collapse;
+    border: 2px solid #800080;
+    font-family: Rock Salt;
+}
+
+table td {
+    padding: 20px 0 20px 0;
+}
+
+table tr.darker {
+    background-color: #ff33ccaa;
+}
+
+table tr.lighter {
+    background-color: #e495e499;
+}
+
+table tr.lighter, tr.darker {
+    font-family: Helvetica;
+}
+
+table th {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(assets/leopardskin.jpg);
+    padding: 20px 0 20px 0;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid #800080;
+}
+
+td:first-of-type{
+    font-weight: bold;
+}
+
+table caption {
+    color: grey;
+    opacity: 90%;
+    caption-side: bottom;
+    margin-left: 75%;
+    margin-top: 20px;
+}
